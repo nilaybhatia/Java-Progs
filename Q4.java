@@ -34,9 +34,9 @@ class Library
             break;
         }
         if(j == books_issued.length)
-            System.out.println("Book not found\n");
+            System.out.println("Book not found");
         else{
-            System.out.println("Book returned successfully\n");
+            System.out.println("Book returned successfully");
             books_issued[j] = 0;
         }
     }
@@ -73,7 +73,7 @@ class Main
             break;
 
             case 4:
-            
+            sortByFine()
             break;
           }
         }while(choice != 5);
