@@ -1,7 +1,6 @@
 import java.util.*;
 class Q2a {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     for(int i = 1; i<= n; i++){
