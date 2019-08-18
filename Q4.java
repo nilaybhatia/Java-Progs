@@ -89,7 +89,7 @@ class Main
         sortByFine(stud);
         System.out.println("Account number\t\t\tName\t\t\tFine");
         for(int i = 0; i < stud.length; i++){
-            System.out.println(stud[i].acc_no + "\t\t" + stud[i].name + "\t\t" + stud[i].fine);
+            System.out.println(stud[i].acc_no + "\t\t\t\t" + stud[i].name + "\t\t" + stud[i].fine);
         }        
     }
     public static void sortByFine(Library students[]){
