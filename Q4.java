@@ -7,10 +7,10 @@ class Library
     double fine;
     int i = 0;
     Scanner sc = new Scanner(System.in);
-    Library()
+    Library(String name, long acc_no)
     {
-        name = "";
-        acc_no = 0;
+        this.name = name;
+        this.acc_no = acc_no;
         //books_issued[] = {};
         fine = 0.0;
     }
@@ -47,7 +47,7 @@ class Library
     }
 }
 
-class Main
+class Demo
 {
     public static void main(String args[])
     {
@@ -57,13 +57,13 @@ class Main
         Library stud[] = new Library[n];
         for(int i = 0; i < n; i++) {
             int choice;
-            stud[i] = new Library();
             System.out.println("Student " + (i+1));
             System.out.println("Enter name");
-            stud[i].name = sc.next();
-            String dummy = sc.next();
+            String name = sc.next();
+            //String dummy = sc.next();
             System.out.println("Enter account number");
-            stud[i].acc_no = sc.nextLong();
+            long acc_no = sc.nextLong();
+            stud[i] = new Library(name, acc_no);
             do{
                 System.out.println("Enter a choice");
                 System.out.println("1. Issue a book\n2. Return a book\n3. Charge fine\n4. Exit for this student");
