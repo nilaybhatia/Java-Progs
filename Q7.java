@@ -6,7 +6,7 @@ class Test
 		this.a = a;
 		this.b = b;
 	}	
-	public static Test func(Test o)
+	public Test func(Test o)
 	{
 		o.a *= 2;
 		o.b += 4;

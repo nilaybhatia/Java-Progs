@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java programs_6c42b7c9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Q10",
+            "request": "launch",
+            "mainClass": "Q10",
+            "projectName": "Java programs_6c42b7c9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Q5",
+            "request": "launch",
+            "mainClass": "Q5",
+            "projectName": "Java programs_6c42b7c9"
+        }
+    ]
+}
