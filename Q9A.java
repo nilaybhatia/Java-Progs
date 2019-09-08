@@ -1,5 +1,5 @@
 import java.util.*;
-public class Q9
+public class Q9A
 {
 	public static void main(String args[])
 	{
@@ -18,7 +18,9 @@ public class Q9
 		System.out.println(s.concat(s1));
 		System.out.println("AbcdeAbcde".indexOf('c'));		
 		System.out.println( "AbcdeAbcde".lastIndexOf('c'));
-
+		System.out.println("AbcdeAbcde".indexOf("cde"));
+		System.out.println("AbcdeAbcde".indexOf("cde", 3));
+		System.out.println(("Secret Message".replace('e', 'x')).toUpperCase());
 	}
 }
 //System.out.println();

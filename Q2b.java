@@ -15,7 +15,7 @@ public class Q2b
       ans += sign*(term/fact(i));
       sign*=-1;
       term *= x*x;
- dont   }
+    }
     System.out.println("The ans is " + ans);      
   }
   public static long fact(int n)
