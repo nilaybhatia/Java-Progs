@@ -8,9 +8,9 @@
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - TestAWT",
+            "name": "CodeLens (Launch) - Q13",
             "request": "launch",
-            "mainClass": "TestAWT"
+            "mainClass": "Q13"
         },
         {
             "type": "java",

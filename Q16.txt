@@ -1,0 +1,20 @@
+import java.awt.*;
+class TestAWT {
+
+	TestAWT() {
+
+		Frame frame = new Frame(); //Creating a frame.
+		Label label = new Label("welcome to java graphics"); //Creating a label
+		//TextField textField = new TextField("Enter name");
+		frame.add(label); //adding label to the frame.
+		//frame.add(textField);
+		frame.setSize(300, 300); //setting frame size.
+		frame.setVisible(true); //set frame visibilty true.
+	}
+}
+
+public class Q16 {
+	public static void main(String args[]) {
+		 TestAWT test = new TestAWT();
+	}
+}

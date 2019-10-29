@@ -31,7 +31,7 @@ class Tetrahedron extends Shape3D
     return (1.0/3)*dim1*dim2*dim3;
   }
 }
-public class Main
+public class Q12
 {
 	public static void main(String args[])
 	{
