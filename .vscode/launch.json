@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Q13",
+            "request": "launch",
+            "mainClass": "Q13"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CurrentThread",
+            "request": "launch",
+            "mainClass": "CurrentThread"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Q16",
             "request": "launch",
             "mainClass": "Q16"

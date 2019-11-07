@@ -1,5 +1,4 @@
 //Dynamic method dispatch
-import java.util.*;
 class Shape3D
 {
   double dim1, dim2, dim3;
@@ -38,8 +37,8 @@ public class Q12
 		System.out.println("");
     Shape3D s; //ref variable of superclass
 
-    Cuboid c = new Cuboid(2, 3, 4);
-    s = c;
+    Cuboid c = new Cuboid(2, 3, 4); // c is object of subclass
+    s = c; // superclass reference variable is assigned a concrete subclass object
     System.out.println("Volume of cuboid = " + s.volume());
 
     Tetrahedron t = new Tetrahedron(3, 5, 7);

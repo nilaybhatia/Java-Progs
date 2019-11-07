@@ -6,8 +6,9 @@ public class Q1b
         int sum = 0;
         for(int i = 0; i < args.length; i++)
         {
-          System.out.println(args[i]);
-          sum += args[i];
+          int x = Integer.parseInt(args[i]);
+          System.out.println(x);
+          sum += x;
         }
         System.out.println("And their sum is "+sum);
     }	

@@ -1,5 +1,4 @@
 import java.util.*;
-import java.math.*;
 public class Q1c
 {
   public static void main(String args[])
@@ -12,7 +11,7 @@ public class Q1c
     if(b*b-4*c < 0)
       System.out.println("No real solutions");
     else{
-      double D = Math.sqrt(b*b-4*c);
+      double D = Math.sqrt(b*b-4*c); // in java.lang
       double x1, x2;
       x1 = (-b + D)/(2);
       x2 = (-b - D)/(2);
@@ -21,5 +20,4 @@ public class Q1c
   }
 }
 /*Notes:
-1. Don't forget to include math package
-2. Since sqrt function returns a double value, keep data type of variables as double */
+1. Since sqrt function returns a double value, keep data type of variables as double */

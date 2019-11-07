@@ -1,3 +1,8 @@
+/*Don't forget to set classpath from the working directory, not this folder
+Windows: Set CLASSPATH = %CLASSPATH%;C:\Users\HOME\OneDrive\Documents\Java-Progs\MyPackage
+Ubuntu: echo $(CLASSPATH) -->for viewing
+        export CLASSPATH=.:/initial/address/here/Java-Progs/MyPackage
+*/
 package MyPackage;
 public class Array{
   //A utility function for printing any array

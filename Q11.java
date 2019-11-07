@@ -1,4 +1,3 @@
-import java.util.*;
 interface BasicOperations
 {
 	double add(double x, double y);
@@ -8,7 +7,7 @@ interface BasicOperations
 }
 interface AdvancedOperations
 {
-	double PI = 3.141592;
+	double PI = 3.141592; //interface can have instance variables
 	int power(int x, int y);
 	double square(double x);
 	double cube(double x);

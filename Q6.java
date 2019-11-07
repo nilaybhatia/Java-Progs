@@ -1,11 +1,9 @@
-import java.util.*;
 class Area
 {
-	//System.out.println("...");
 	double area(double radius)
 	{
 		/*for circle*/
-		return 3.1415*radius*radius;
+		return Math.PI*radius*radius;
 	}
 	double area(double length, double breadth)
 	{

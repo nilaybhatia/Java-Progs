@@ -21,6 +21,8 @@ public class Q9A
 		System.out.println("AbcdeAbcde".indexOf("cde"));
 		System.out.println("AbcdeAbcde".indexOf("cde", 3));
 		System.out.println(("Secret Message".replace('e', 'x')).toUpperCase());
+		String arr[] = "Mouse, Keyboard, Touchpad, ".split(", ");
+		for(int i = 0; i < arr.length; i++) System.out.println(arr[i]);
 	}
 }
 //System.out.println();
